@@ -76,7 +76,7 @@ class DefaultController extends Controller
     	if ($request->getMethod() == 'POST') {
     		
     		$name = $request->get('name');
-    		$username = $request->get('username');
+    		$username = $request->get('username');//testrepo
     		$password = $request->get('password');
     		$role = $request->get('role');
     		
